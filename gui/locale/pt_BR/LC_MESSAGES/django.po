@@ -3479,7 +3479,6 @@ msgstr ""
 #~ msgstr "Ativar .AppleDouble"
 
 #: sharing/models.py:190
-#, fuzzy
 msgid ""
 "This will enable automatic creation of the .AppleDouble directories. This "
 "option should be used if files are accessed by Mac computers."
@@ -3646,7 +3645,6 @@ msgid "Sharing"
 msgstr "Compartilhamento"
 
 #: storage/forms.py:105
-#, fuzzy
 msgid "Enter positive number (optionally suffixed by K, M, G, T), or, 0"
 msgstr ""
 "Entre com um número positivo (opcaionalmento com os sufixos M,G,T), ou 0"
@@ -4296,7 +4294,6 @@ msgid "Volume successfully added."
 msgstr "Volume adicionado com sucesso."
 
 #: storage/views.py:254
-#, fuzzy
 msgid "S.M.A.R.T. Extra Options"
 msgstr "S.M.A.R.T. opções extras"
 
@@ -4395,7 +4392,6 @@ msgstr "Idioma (Requer UI atualização de pagina)"
 #~ msgstr "O valor deve estar entre 0 a 65535."
 
 #: system/forms.py:216
-#, fuzzy
 msgid "Number is required."
 msgstr "Este campo é obrigatório."
 
@@ -5510,7 +5506,6 @@ msgid "Portals"
 msgstr "Portais"
 
 #: templates/services/iscsi.html:14
-#, fuzzy
 msgid "Authorized Initiators"
 msgstr "Iniciador autorizado"
 
@@ -5912,7 +5907,6 @@ msgstr "todos os dias"
 #~ msgstr "em cada"
 
 #: templates/storage/tasks.html:147
-#, fuzzy
 msgid "There are no periodic snapshots scheduled."
 msgstr "Nenhum snapshot periódico agendado"
 
@@ -6051,17 +6045,14 @@ msgid "Are you sure you want to restore to factory config?"
 msgstr "Tem certeza que quer restaurar a configuração de fábrica?"
 
 #: templates/system/cronjob.html:41
-#, fuzzy
 msgid "No cron jobs defined."
 msgstr "Nenhuma tarefa definida"
 
 #: templates/system/cronjob.html:47
-#, fuzzy
 msgid "Add a cron job"
 msgstr "Adicionar tarefa"
 
 #: templates/system/cronjob.html:49
-#, fuzzy
 msgid "Add cron job"
 msgstr "Adicionar tarefa"
 
@@ -6169,7 +6160,6 @@ msgstr "Desconhecido"
 #~ msgstr "Adicionar S.M.A.R.T. testes"
 
 #: templates/system/sysctl.html:34
-#, fuzzy
 msgid "No sysctl defined."
 msgstr "Nenhum rsyncs definido"
 
@@ -6215,7 +6205,6 @@ msgstr "Carga Média"
 #~ msgstr "Adicionar Tunable"
 
 #: templates/system/tunable.html:42
-#, fuzzy
 msgid "Add Loader"
 msgstr "Adicionar Portal"
 
@@ -6334,18 +6323,15 @@ msgstr "Alertas Críticos"
 #~ msgid "Invalid service pack"
 #~ msgstr "Service pack inválido"
 
-#, fuzzy
 msgid "View Cron Jobs"
 msgstr "Tarefas"
 
-#, fuzzy
 msgid "View Rsync Tasks"
 msgstr "Visualizar todas as tarefas de replicação"
 
 #~ msgid "View S.M.A.R.T. Tests"
 #~ msgstr "Ver Configurações S.M.A.R.T."
 
-#, fuzzy
 msgid "View Sysctls"
 msgstr "Visualizar Discos"
 
@@ -6520,7 +6506,6 @@ msgstr "Editar Disco"
 #~ msgid "Export Volume"
 #~ msgstr "Exportar Volume"
 
-#, fuzzy
 msgid "Add loader"
 msgstr "Adicionar Portal"
 
@@ -9127,7 +9112,6 @@ msgstr "Confirme a Senha do Administrador"
 
 #: services/forms.py:758
 #: services/models.py:1612
-#, fuzzy
 msgid "Kerberos keytab"
 msgstr "Arquivo Kerberos Keytab"
 
@@ -9772,7 +9756,6 @@ msgid "Certificate"
 msgstr "Certificado SSL"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Senha para bind raíz"
 
@@ -9813,7 +9796,6 @@ msgstr "Nome do Controlador de Domínio"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "Certificado SSL"
 
@@ -10240,7 +10222,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Iniciador"
 
@@ -11468,7 +11449,6 @@ msgid "Unmount Failed (%(retcode)s) -> %(output)s"
 msgstr "Montagem falhou (%(retcode)s) -> %(output)s"
 
 #: jails/forms.py:218
-#, fuzzy
 msgid "Jail name cannot have '.'"
 msgstr "Nomes de usuário não podem ter espaços"
 
@@ -11551,7 +11531,6 @@ msgstr "Tamanho do Bloco"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Plugin"
 
@@ -11578,7 +11557,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "Snapshot"
 
@@ -11664,7 +11642,6 @@ msgid "Verifying"
 msgstr "Verificar"
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "O volume %(volume)s se encontra com o status %(status)s: %(message)s"
 
@@ -12159,7 +12136,6 @@ msgid ""
 msgstr "Nome Base será concatenado automaticamente quando começar sem 'iqn.'."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Canal"
 
@@ -12264,7 +12240,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "As alterações foram atualizadas com sucesso!"
 
@@ -12978,33 +12953,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "Endereço do controlador IP"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Porta Remota"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Usuário"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Alterar Senha"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "Versão"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Configuração"
 
@@ -13629,3 +13598,152 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Usuário"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Nome do Grupo"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "Hostname do controlador de domínio a ser utilizado."
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Este IP já está em uso."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "A comunidade deverá conter somente caracteres alfanuméricos, _ ou -"
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Modo de Acesso"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Segredo"
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Nome da conta do domínio"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "Service pack inválido"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Prefixo inválido"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Uma tabela de senhas é necessaria                "
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+#, fuzzy
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+"Desabilitando irá parar quaisquer inclusões de replicações na fila. Não irá "
+"parar replicações que estiverem na fila ou em progresso."
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/views.py:53
+#, fuzzy
+msgid "The cloud sync process has started"
+msgstr "O processo de scrub parou"
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "Você quer ativar este serviço?"

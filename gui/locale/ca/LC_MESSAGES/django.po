@@ -1814,7 +1814,6 @@ msgid "Home directories"
 msgstr "Directoris Home"
 
 #: services/models.py:160
-#, fuzzy
 msgid "Homes auxiliary parameters"
 msgstr "parametres auxiliars"
 
@@ -2860,7 +2859,6 @@ msgid "Administrator Name"
 msgstr "Nom de l'Administrador"
 
 #: services/models.py:1264
-#, fuzzy
 msgid "Domain Administrator account name"
 msgstr "Contrasenya de l'Administrador de Domini."
 
@@ -2869,7 +2867,6 @@ msgid "Administrator Password"
 msgstr "Contrasenya de l'Administrador"
 
 #: services/models.py:1269
-#, fuzzy
 msgid "Domain Administrator account password."
 msgstr "Contrasenya de l'Administrador de Domini."
 
@@ -6367,7 +6364,7 @@ msgid "The volume %s status is DEGRADED"
 msgstr "L'estat del volum %s és DEGRADAT"
 
 #: tools/alert.py:115
-#, fuzzy, python-format
+#, python-format
 msgid "The volume %(volume)s status is %(status)s: %(message)s"
 msgstr "L'estat del %(volume)s és %(status)s"
 
@@ -7063,7 +7060,6 @@ msgid "Read-Only"
 msgstr "Només lectura"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "Tipo de sistema de fitxers"
 
@@ -7085,7 +7081,6 @@ msgid "Jail successfully started."
 msgstr "%s actualitzat amb èxit."
 
 #: jails/views.py:399
-#, fuzzy
 msgid "Jail template successfully edited."
 msgstr "Dataset afegit amb èxit."
 
@@ -7330,7 +7325,6 @@ msgid "Set this if you want to allow Trusted Domains."
 msgstr ""
 
 #: services/models.py:1651
-#, fuzzy
 msgid "Kerberos Server"
 msgstr "Fitxer Keytab de kerberos"
 
@@ -9065,7 +9059,6 @@ msgid "OS"
 msgstr ""
 
 #: jails/nav.py:70
-#, fuzzy
 msgid "Add Jails"
 msgstr "Afegir %s"
 
@@ -9172,7 +9165,6 @@ msgstr "Eliminar replicació"
 
 #: services/forms.py:758
 #: services/models.py:1612
-#, fuzzy
 msgid "Kerberos keytab"
 msgstr "Fitxer Keytab de kerberos"
 
@@ -9953,7 +9945,6 @@ msgid "Certificate"
 msgstr "Certificat SSL"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Contrasenya vinculada a Root"
 
@@ -9994,7 +9985,6 @@ msgstr "Nom del Controlador de Domini"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "Certificat SSL"
 
@@ -10383,7 +10373,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Iniciador"
 
@@ -11671,7 +11660,6 @@ msgstr "Tamany lògic de bloc (Block Size)"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Nom de domini"
 
@@ -11698,7 +11686,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "Snapshot"
 
@@ -11783,7 +11770,6 @@ msgid "Verifying"
 msgstr ""
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "L'estat del %(volume)s és %(status)s"
 
@@ -12271,7 +12257,6 @@ msgid ""
 msgstr "S'afegirà automàticament el nom de Base quan comenci sense 'iqn.'."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Canviar"
 
@@ -12373,7 +12358,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "Els teus canvis han estat actualitzats correctament!"
 
@@ -13079,33 +13063,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "Adreça IP del Controller"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Host remot"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Nom d'usuari"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Canviar Contrasenya"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "Versió del Sistema Operatiu"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Configuració Global"
 
@@ -13718,4 +13696,148 @@ msgstr "mode d'apagada"
 msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
+msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Nom d'usuari"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Nom del Grup"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "Nom del Controlador de Domini"
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Un grup amb aquest gid ja existeix"
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "Els noms de volums UFS només poden contenir caràcters alfanumérics"
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Mode d'accés"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Secret"
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Nom de domini"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "Service Pack o checksum incorrecte"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Prefixe invalid"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "El camp és obligatori"
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/views.py:53
+msgid "The cloud sync process has started"
+msgstr ""
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+msgid "Would you like to run this cloud sync now?"
 msgstr ""

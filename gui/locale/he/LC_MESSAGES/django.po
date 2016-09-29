@@ -896,7 +896,6 @@ msgid "Parent Interface"
 msgstr "מנשק הורה"
 
 #: network/forms.py:245
-#, fuzzy
 msgid "The name must be vlanXX where XX is an integer"
 msgstr "השם חייב להיות vlanXX מתי שXX הוא מספר שלם."
 
@@ -1148,12 +1147,10 @@ msgid "This IP is already in use."
 msgstr "קבוצה עם ה gid הזה כבר קיימת"
 
 #: plugins/forms.py:92
-#, fuzzy
 msgid "Place to temporarily place PBI file"
 msgstr "מקום בשביל קובץ הקושחה הזמני"
 
 #: plugins/forms.py:93
-#, fuzzy
 msgid ""
 "The system will use this place to temporarily store the PBI file before it's "
 "installed."
@@ -1170,7 +1167,7 @@ msgid "You must turn off Plugins service before proceeding"
 msgstr ""
 
 #: plugins/forms.py:183
-#, fuzzy, python-format
+#, python-format
 msgid "The path %s already exists"
 msgstr "קבוצה עם ה gid הזה כבר קיימת"
 
@@ -1191,12 +1188,10 @@ msgid "Plugins jail path"
 msgstr ""
 
 #: plugins/forms.py:218
-#, fuzzy
 msgid "Jail IPv4 Address"
 msgstr "כתובת אימייל"
 
 #: plugins/forms.py:222
-#, fuzzy
 msgid "Jail IPv4 Netmask"
 msgstr "IPv4 Netmask"
 
@@ -1217,7 +1212,7 @@ msgid "The full path cannot exceed 88 characters"
 msgstr ""
 
 #: plugins/forms.py:336
-#, fuzzy, python-format
+#, python-format
 msgid "The path could not be mounted %s"
 msgstr "המטמון לא יכול להיבנות מחדש"
 
@@ -1309,7 +1304,6 @@ msgid "Mount Point"
 msgstr "נקודת כינון"
 
 #: plugins/models.py:122
-#, fuzzy
 msgid "Mount Points"
 msgstr "נקודת כינון"
 
@@ -1319,7 +1313,6 @@ msgid "Plugin successfully updated."
 msgstr "%S עודכן בהצלחה."
 
 #: plugins/views.py:80
-#, fuzzy
 msgid "Plugin successfully removed."
 msgstr "נפח הוסף בהצלחה."
 
@@ -1342,7 +1335,6 @@ msgid "There was a problem importing the jail."
 msgstr ""
 
 #: plugins/views.py:204
-#, fuzzy
 msgid "Jail successfully imported."
 msgstr "%S עודכן בהצלחה."
 
@@ -1373,12 +1365,10 @@ msgid "The NFS service failed to reload."
 msgstr "שירות הNFS נכשל להיטען מחדש"
 
 #: services/forms.py:157
-#, fuzzy
 msgid "This IP already exists."
 msgstr "קבוצה עם ה gid הזה כבר קיימת"
 
 #: services/forms.py:164
-#, fuzzy
 msgid "The Plugins Jail service failed to reload."
 msgstr "שירות הAFP נכשל להיטען מחדש"
 
@@ -1793,7 +1783,6 @@ msgid "Home directories"
 msgstr "תיקיות בית"
 
 #: services/models.py:160
-#, fuzzy
 msgid "Homes auxiliary parameters"
 msgstr "מאפיני עזר"
 
@@ -2326,12 +2315,10 @@ msgid "Dynamic DNS"
 msgstr "DNS דינאמי"
 
 #: services/models.py:804
-#, fuzzy
 msgid "Path to the plugins jail"
 msgstr "הדרך להקף"
 
 #: services/models.py:809
-#, fuzzy
 msgid "Jail name"
 msgstr "שם הדומיין"
 
@@ -2346,12 +2333,10 @@ msgid ""
 msgstr ""
 
 #: services/models.py:821
-#, fuzzy
 msgid "Jail IP address"
 msgstr "כתובת אימייל"
 
 #: services/models.py:825
-#, fuzzy
 msgid "Jail IP Netmask"
 msgstr "IPv4 Netmask"
 
@@ -2443,7 +2428,6 @@ msgstr ""
 "יתבטל."
 
 #: services/models.py:933
-#, fuzzy
 msgid "UPS Master User Password"
 msgstr "סיסמת שיתוף"
 
@@ -2806,7 +2790,6 @@ msgid "Administrator Name"
 msgstr "שם מנהל"
 
 #: services/models.py:1264
-#, fuzzy
 msgid "Domain Administrator account name"
 msgstr "הסיסמה של חשבון מנהל הדומיין."
 
@@ -2815,7 +2798,6 @@ msgid "Administrator Password"
 msgstr "סיסמת מנהל"
 
 #: services/models.py:1269
-#, fuzzy
 msgid "Domain Administrator account password."
 msgstr "הסיסמה של חשבון מנהל הדומיין."
 
@@ -3106,23 +3088,19 @@ msgstr "נהל שירותים"
 #~ msgstr "הוסף הקף התקן"
 
 #: services/nav.py:79
-#, fuzzy
 msgid "View Device Extents"
 msgstr " ראה את כל הקפי התקנים"
 
 #: services/nav.py:92
-#, fuzzy
 msgid "File Extents"
 msgstr "הקפי התקנים"
 
 #: services/nav.py:111 templates/services/iscsi_extents.html:39
 #: templates/services/iscsi_extents.html:41
-#, fuzzy
 msgid "Add File Extent"
 msgstr "הוסף הקף התקן"
 
 #: services/nav.py:118
-#, fuzzy
 msgid "View File Extents"
 msgstr "ראה את כל ההקפים"
 
@@ -3150,7 +3128,6 @@ msgid "Settings"
 msgstr "הגדרות"
 
 #: services/nav.py:186
-#, fuzzy
 msgid "Management"
 msgstr "ניהול iSCSI"
 
@@ -3452,12 +3429,10 @@ msgstr ""
 #~ "שבשביל מחשבי מקינטוש."
 
 #: sharing/models.py:189
-#, fuzzy
 msgid "Enable .AppleDouble"
 msgstr "אין AppleDouble"
 
 #: sharing/models.py:190
-#, fuzzy
 msgid ""
 "This will enable automatic creation of the .AppleDouble directories. This "
 "option should be used if files are accessed by Mac computers."
@@ -3623,7 +3598,6 @@ msgid "Sharing"
 msgstr "שיתוף"
 
 #: storage/forms.py:105
-#, fuzzy
 msgid "Enter positive number (optionally suffixed by K, M, G, T), or, 0"
 msgstr "הקש מספר חיובי (סיומת אוציונלית של M,G,T), or', 0"
 
@@ -3648,7 +3622,6 @@ msgid "Specify custom path"
 msgstr ""
 
 #: storage/forms.py:163
-#, fuzzy
 msgid "Volume add"
 msgstr "שם הנפח"
 
@@ -3782,7 +3755,6 @@ msgid "Reserved space for this dataset and all children"
 msgstr "נפח שמור בשביל סט המידע הזה וכל הילדים"
 
 #: storage/forms.py:716
-#, fuzzy
 msgid ""
 "Dataset names must begin with an alphanumeric character and may only contain "
 "\"-\", \"_\", \":\" and \".\"."
@@ -3811,7 +3783,6 @@ msgstr "נפח שמור בשביל סט המידע הזה"
 #~ msgstr "גודל בשביל נפח הZFS הזה"
 
 #: storage/forms.py:846
-#, fuzzy
 msgid "Example: 1g"
 msgstr "0= כלום; דוגמא: 1g"
 
@@ -4105,7 +4076,6 @@ msgstr "מארחי שיכפול מרוחקים"
 
 #: storage/models.py:657 storage/models.py:718
 #: templates/storage/replications.html:20 templates/storage/tasks.html:21
-#, fuzzy
 msgid "Filesystem/Volume"
 msgstr "סוג מערכת הקבצים"
 
@@ -4119,7 +4089,6 @@ msgid "Remote Host"
 msgstr "מאחר מרוחק"
 
 #: storage/models.py:669
-#, fuzzy
 msgid "Remote ZFS filesystem name"
 msgstr "מערכת ZFS מרוחקת"
 
@@ -4221,13 +4190,11 @@ msgid "View Snapshots"
 msgstr "ראה את התצלומים"
 
 #: storage/nav.py:34
-#, fuzzy
 msgid "View ZFS Scrubs"
 msgstr "ראה את כל הקבוצות"
 
 #: storage/nav.py:41 templates/storage/volumes.html:4
 #: templates/storage/volumes.html.py:6
-#, fuzzy
 msgid "Volume Manager"
 msgstr "שם הנפח"
 
@@ -4285,7 +4252,6 @@ msgid "Volume successfully added."
 msgstr "נפח הוסף בהצלחה."
 
 #: storage/views.py:254
-#, fuzzy
 msgid "S.M.A.R.T. Extra Options"
 msgstr " אפרויות יתר של S.M.A.R.T."
 
@@ -4385,12 +4351,10 @@ msgid "Language (Require UI reload)"
 msgstr "שפה(דורש אתחול של מנשק המשתמש)"
 
 #: system/forms.py:214
-#, fuzzy
 msgid "You must specify a number between 1 and 65535, inclusive."
 msgstr "הערך חייב להיות בין 0 ל 65535, כולל"
 
 #: system/forms.py:216
-#, fuzzy
 msgid "Number is required."
 msgstr "השדה הזה נחוץ."
 
@@ -4431,12 +4395,10 @@ msgid "SHA256 sum for the image"
 msgstr "סכום בשביל התמונה SHA256"
 
 #: system/forms.py:538
-#, fuzzy
 msgid "Invalid firmware"
 msgstr "קושחה או בדיקת סכום לא חוקית"
 
 #: system/forms.py:544
-#, fuzzy
 msgid "Invalid checksum"
 msgstr "קושחה או בדיקת סכום לא חוקית"
 
@@ -4459,7 +4421,6 @@ msgid "Protocol"
 msgstr "פרוטוקול"
 
 #: system/models.py:50
-#, fuzzy
 msgid "WebGUI Address"
 msgstr "כתובת IPv4"
 
@@ -5354,7 +5315,6 @@ msgid "Plugin info"
 msgstr ""
 
 #: templates/plugins/index.html:39
-#, fuzzy
 msgid "Edit Plugin"
 msgstr "ערוך שער"
 
@@ -5391,22 +5351,18 @@ msgid "Please wait..."
 msgstr "המתן בבקשה..."
 
 #: templates/plugins/mountpoints.html:19
-#, fuzzy
 msgid "Edit Mount Point"
 msgstr "נקודת כינון"
 
 #: templates/plugins/mountpoints.html:25
-#, fuzzy
 msgid "Delete Mount Point"
 msgstr "נקודת כינון"
 
 #: templates/plugins/mountpoints.html:32
-#, fuzzy
 msgid "No mount points defined"
 msgstr "שום עבודת Cron מוגדרות"
 
 #: templates/plugins/mountpoints.html:38 templates/plugins/mountpoints.html:40
-#, fuzzy
 msgid "Add Mount Point"
 msgstr "נקודת כינון"
 
@@ -5476,7 +5432,6 @@ msgid "NFS Settings"
 msgstr "הגדרות NFS"
 
 #: templates/services/core.html:103 templates/services/core.html.py:105
-#, fuzzy
 msgid "Plugins Settings"
 msgstr "הגדרות AFP"
 
@@ -5530,7 +5485,6 @@ msgid "Portals"
 msgstr "שערים"
 
 #: templates/services/iscsi.html:14
-#, fuzzy
 msgid "Authorized Initiators"
 msgstr "יזם מאושר"
 
@@ -5550,7 +5504,6 @@ msgid "Associated Targets"
 msgstr "מטרות משויכות"
 
 #: templates/services/iscsi_assoctargets.html:31
-#, fuzzy
 msgid "No associated targets defined"
 msgstr "אין שום מטרות מוגדרות"
 
@@ -5570,7 +5523,6 @@ msgstr "אין שום מטרות מוגדרות"
 #~ msgstr "רשת מאושרת"
 
 #: templates/services/iscsi_authini.html:35
-#, fuzzy
 msgid "No authorized initiators defined"
 msgstr "יזם מאושר"
 
@@ -5578,7 +5530,6 @@ msgstr "יזם מאושר"
 #~ msgstr "הוסף יזם מאושר"
 
 #: templates/services/iscsi_dextents.html:33
-#, fuzzy
 msgid "No device extents defined"
 msgstr "אין שום מטרות מוגדרות"
 
@@ -5586,12 +5537,10 @@ msgstr "אין שום מטרות מוגדרות"
 #~ msgstr "הוסף הקף"
 
 #: templates/services/iscsi_extents.html:5
-#, fuzzy
 msgid "File Extent"
 msgstr "הקפי התקנים"
 
 #: templates/services/iscsi_extents.html:33
-#, fuzzy
 msgid "No extents defined"
 msgstr "אין שום מטרות מוגדרות"
 
@@ -5610,7 +5559,6 @@ msgstr ""
 #~ msgstr "מחק שער"
 
 #: templates/services/iscsi_portals.html:39
-#, fuzzy
 msgid "No portals defined"
 msgstr "אין שום מטרות מוגדרות"
 
@@ -5624,7 +5572,6 @@ msgstr "אין שום מטרות מוגדרות"
 #~ msgstr "הוסף מטרה"
 
 #: templates/services/plugins.html:13 templates/services/plugins.html.py:15
-#, fuzzy
 msgid "View Mount Points"
 msgstr "נקודת כינון"
 
@@ -5666,7 +5613,6 @@ msgid "All the files within the plugins jail will be permanently deleted."
 msgstr ""
 
 #: templates/services/pluginsjail_edit.html:12
-#, fuzzy
 msgid "Delete Plugins Jail"
 msgstr "מחק קובץ מוסתר."
 
@@ -5677,17 +5623,14 @@ msgstr "מחק קובץ מוסתר."
 #~ msgstr "שיתופים פעילים"
 
 #: templates/sharing/apple.html:7
-#, fuzzy
 msgid "There are no active Apple (AFP) shares."
 msgstr "אין שום שיתופי אפל פעילים"
 
 #: templates/sharing/apple.html:29
-#, fuzzy
 msgid "Edit Apple (AFP) Share"
 msgstr "ערוך שיתוף אפל"
 
 #: templates/sharing/apple.html:35
-#, fuzzy
 msgid "Delete Apple (AFP) Share"
 msgstr "מחק שיתוף אפל"
 
@@ -5695,7 +5638,6 @@ msgstr "מחק שיתוף אפל"
 #~ msgstr "שום שיתוף לא מוגדר"
 
 #: templates/sharing/apple.html:49 templates/sharing/apple.html.py:51
-#, fuzzy
 msgid "Add Apple (AFP) Share"
 msgstr "הוסף שיתוף אפל"
 
@@ -5715,7 +5657,6 @@ msgid "Windows (SMB)"
 msgstr "הוסף שיתוף חלונות (SMB)"
 
 #: templates/sharing/unix.html:7
-#, fuzzy
 msgid "There are no active UNIX (NFS) shares."
 msgstr "אין שום שיתופי UNIX פעילים"
 
@@ -5723,17 +5664,14 @@ msgstr "אין שום שיתופי UNIX פעילים"
 #~ msgstr "נקודת כינון"
 
 #: templates/sharing/unix.html:29
-#, fuzzy
 msgid "Edit UNIX (NFS) Share"
 msgstr "ערוך שיתוף NFS"
 
 #: templates/sharing/unix.html:35
-#, fuzzy
 msgid "Delete UNIX (NFS) Share"
 msgstr "מחק שיתוף NFS"
 
 #: templates/sharing/unix.html:49 templates/sharing/unix.html.py:51
-#, fuzzy
 msgid "Add UNIX (NFS) Share"
 msgstr "הוסף שיתוף UNIX"
 
@@ -5880,7 +5818,6 @@ msgstr ""
 #~ msgstr "שום העתק ZFS זמין"
 
 #: templates/storage/scrub.html:42
-#, fuzzy
 msgid "No scrub tasks defined."
 msgstr "שום rsyncs מוגדרים"
 
@@ -5889,7 +5826,6 @@ msgid "Add ZFS Scrub Task"
 msgstr ""
 
 #: templates/storage/scrub.html:50
-#, fuzzy
 msgid "Add ZFS Scrub"
 msgstr "הוסף נפח ZFS"
 
@@ -5979,7 +5915,6 @@ msgstr "כל יום"
 #~ msgstr "על כל אחד"
 
 #: templates/storage/tasks.html:147
-#, fuzzy
 msgid "There are no periodic snapshots scheduled."
 msgstr "אין תצלומיים תקופתיים מתוכננים"
 
@@ -6045,7 +5980,6 @@ msgstr "השמד סט מידע"
 #~ msgstr "שום נפח לא הוגדר"
 
 #: templates/storage/wizard.html:27
-#, fuzzy
 msgid "Volume to extend"
 msgstr "נתיב לנפח"
 
@@ -6086,7 +6020,7 @@ msgid "Replace Disk"
 msgstr "החלף כונן"
 
 #: templates/storage/zvols.html:3
-#, fuzzy, python-format
+#, python-format
 msgid "Create ZFS volume on %(name)s"
 msgstr "צור נפח ZFS"
 
@@ -6116,7 +6050,6 @@ msgstr "עידכון קושחה"
 
 #: templates/system/advanced_edit.html:39
 #: templates/system/advanced_edit.html:41
-#, fuzzy
 msgid "Import Plugins Jail"
 msgstr "מחק קובץ מוסתר."
 
@@ -6129,17 +6062,14 @@ msgid "Are you sure you want to restore to factory config?"
 msgstr "האם אתה בטוח שאתה רוצה לחזור להגדרות המפעל?"
 
 #: templates/system/cronjob.html:41
-#, fuzzy
 msgid "No cron jobs defined."
 msgstr "שום עבודת Cron מוגדרות"
 
 #: templates/system/cronjob.html:47
-#, fuzzy
 msgid "Add a cron job"
 msgstr "הוסף עבודת Cron"
 
 #: templates/system/cronjob.html:49
-#, fuzzy
 msgid "Add cron job"
 msgstr "הוסף עבודת Cron"
 
@@ -6162,17 +6092,14 @@ msgid "iBurst"
 msgstr ""
 
 #: templates/system/ntpserver.html:38
-#, fuzzy
 msgid "No NTP servers defined."
 msgstr "שם שרת לא הוגדר"
 
 #: templates/system/ntpserver.html:44
-#, fuzzy
 msgid "Add NTP server"
 msgstr "שרת NTP 1"
 
 #: templates/system/ntpserver.html:46
-#, fuzzy
 msgid "Add NTP Server"
 msgstr "שרת NTP 1"
 
@@ -6193,22 +6120,18 @@ msgid "History"
 msgstr "תיקייה"
 
 #: templates/system/rsync.html:5
-#, fuzzy
 msgid "Local Path"
 msgstr "אדון מקומי"
 
 #: templates/system/rsync.html:6
-#, fuzzy
 msgid "Remote"
 msgstr "הסר"
 
 #: templates/system/rsync.html:48
-#, fuzzy
 msgid "No rsync tasks defined."
 msgstr "שום rsyncs מוגדרים"
 
 #: templates/system/rsync.html:54
-#, fuzzy
 msgid "Add rsync task"
 msgstr "הוסף Rsync"
 
@@ -6247,32 +6170,26 @@ msgid "Unknown"
 msgstr "בלתי ידוע"
 
 #: templates/system/smarttest.html:38
-#, fuzzy
 msgid "No S.M.A.R.T. tests defined"
 msgstr "אין שום מטרות מוגדרות"
 
 #: templates/system/smarttest.html:44
-#, fuzzy
 msgid "Add S.M.A.R.T. Test"
 msgstr "S.M.A.R.T."
 
 #: templates/system/smarttest.html:46
-#, fuzzy
 msgid "Add S.M.A.R.T. test"
 msgstr "S.M.A.R.T."
 
 #: templates/system/sysctl.html:34
-#, fuzzy
 msgid "No sysctl defined."
 msgstr "שום rsyncs מוגדרים"
 
 #: templates/system/sysctl.html:40
-#, fuzzy
 msgid "Add sysctl"
 msgstr "הוסף Rsync"
 
 #: templates/system/sysctl.html:42
-#, fuzzy
 msgid "Add Sysctl"
 msgstr "הוסף Rsync"
 
@@ -6305,17 +6222,14 @@ msgid "Connected through"
 msgstr ""
 
 #: templates/system/tunable.html:34
-#, fuzzy
 msgid "No tunable setting defined."
 msgstr "אין שום מטרות מוגדרות"
 
 #: templates/system/tunable.html:40
-#, fuzzy
 msgid "Add Tunable"
 msgstr "הוסף מטרה"
 
 #: templates/system/tunable.html:42
-#, fuzzy
 msgid "Add Loader"
 msgstr "הוסף שער"
 
@@ -6370,19 +6284,15 @@ msgstr "קריטי"
 #~ msgid "Selected"
 #~ msgstr "בחור"
 
-#, fuzzy
 msgid "SHA256 sum for the PBI file"
 msgstr "סכום בשביל התמונה SHA256"
 
-#, fuzzy
 msgid "Plugin uname"
 msgstr "שם הדומיין"
 
-#, fuzzy
 msgid "Path to plugin"
 msgstr "נתיב לנקודת כינון"
 
-#, fuzzy
 msgid "Control Plugins"
 msgstr "נהל שירותים"
 
@@ -6405,27 +6315,21 @@ msgstr "נהל שירותים"
 #~ msgid "Service Pack image to be installed"
 #~ msgstr "תמונת חבילת שרות להתקנה"
 
-#, fuzzy
 msgid "Invalid service pack"
 msgstr "חבילת שרות אאו בדיקת סכום לא חוקית"
 
-#, fuzzy
 msgid "View Cron Jobs"
 msgstr "עבודות cron"
 
-#, fuzzy
 msgid "View Rsync Tasks"
 msgstr "ראה את מטלות השכפול"
 
-#, fuzzy
 msgid "View S.M.A.R.T. Tests"
 msgstr " אפשרויות S.M.A.R.T."
 
-#, fuzzy
 msgid "View Sysctls"
 msgstr "ראה כוננים"
 
-#, fuzzy
 msgid "View Tunables"
 msgstr "ראה את כל המשתמשים"
 
@@ -6549,7 +6453,6 @@ msgstr "שיתוף UNIX"
 msgid "SMB Shares"
 msgstr "שיתופי UNIX"
 
-#, fuzzy
 msgid "NFS Share"
 msgstr "ערוך שיתוף NFS"
 
@@ -6565,11 +6468,9 @@ msgstr "ערוך שיתוף NFS"
 #~ msgid "NTP server 3"
 #~ msgstr "שרת NTP 3"
 
-#, fuzzy
 msgid "Loader"
 msgstr "מטען ממוצע"
 
-#, fuzzy
 msgid "Loaders"
 msgstr "מטען ממוצע"
 
@@ -6594,7 +6495,6 @@ msgstr "ערוך כונן"
 #~ msgid "Export Volume"
 #~ msgstr "יצא נפח"
 
-#, fuzzy
 msgid "Add loader"
 msgstr "הוסף שער"
 
@@ -7047,7 +6947,6 @@ msgid "Read-Only"
 msgstr "קריאה-בלבד"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "סוג מערכת הקבצים"
 
@@ -7069,7 +6968,6 @@ msgid "Jail successfully started."
 msgstr "%S עודכן בהצלחה."
 
 #: jails/views.py:399
-#, fuzzy
 msgid "Jail template successfully edited."
 msgstr "סט המידע נערך בהצלחה."
 
@@ -7317,7 +7215,6 @@ msgid "Set this if you want to allow Trusted Domains."
 msgstr ""
 
 #: services/models.py:1651
-#, fuzzy
 msgid "Kerberos Server"
 msgstr "קובץ Kerberos Keytab"
 
@@ -9026,7 +8923,6 @@ msgid "OS"
 msgstr ""
 
 #: jails/nav.py:70
-#, fuzzy
 msgid "Add Jails"
 msgstr "הוסף %s"
 
@@ -9144,7 +9040,6 @@ msgstr "מחק העתק"
 
 #: services/forms.py:758
 #: services/models.py:1612
-#, fuzzy
 msgid "Kerberos keytab"
 msgstr "קובץ Kerberos Keytab"
 
@@ -9916,7 +9811,6 @@ msgid "Certificate"
 msgstr "תעודת SSL"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "קשירת סיסמת root"
 
@@ -9957,7 +9851,6 @@ msgstr "שם בקר הדומיין"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "תעודת SSL"
 
@@ -10346,7 +10239,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "יזם"
 
@@ -11627,7 +11519,6 @@ msgstr "גודל גוש לוגי"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "שם הדומיין"
 
@@ -11654,7 +11545,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "צילום"
 
@@ -12222,7 +12112,6 @@ msgid ""
 msgstr "שם הבסיס יסופח באופן אוטומטי מתי שהשם לא מתחיל עם 'Iqn'."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "שנה"
 
@@ -12324,7 +12213,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "השינויים שלך עודכנו בהצלחה!"
 
@@ -13029,33 +12917,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "כתובת IP של הבקר"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "מאחר מרוחק"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "שם משתמש"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "שנה סיסמה"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "גרסת מערכת ההפעלה"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "תצורה עולמית"
 
@@ -13665,4 +13547,148 @@ msgstr "מצב כיבוי"
 msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
+msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "שם משתמש"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "שם קבוצה"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "שם בקר הדומיין"
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "קבוצה עם ה gid הזה כבר קיימת"
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "הערך הזה יכול להכיל רק אותיות, מספרים ו/-/_ ."
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "מצב גישה"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "סוד"
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "שם הדומיין"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "חבילת שרות אאו בדיקת סכום לא חוקית"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "תחילית בלתי חוקית"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "שדה זה נחוץ"
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/views.py:53
+msgid "The cloud sync process has started"
+msgstr ""
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+msgid "Would you like to run this cloud sync now?"
 msgstr ""

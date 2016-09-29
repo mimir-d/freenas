@@ -2883,7 +2883,6 @@ msgstr "Autoriser les liaisons anonymes"
 # A quoi correspond Root dans ce cas ?
 # Moi je pense fortement à la "racine"
 #: services/models.py:1298
-#, fuzzy
 msgid "Root bind DN"
 msgstr "DN du super-utilisateur"
 
@@ -8598,7 +8597,6 @@ msgstr "Les espaces ou les signes numériques ne sont pas autorisés."
 
 #: services/forms.py:758
 #: services/models.py:1612
-#, fuzzy
 msgid "Kerberos keytab"
 msgstr "Fichier Keytab pour Kerberos"
 
@@ -9914,7 +9912,6 @@ msgstr "Certificat"
 
 # A quoi correspond Root dans ce cas ?
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Mot de passe du super-utilisateur"
 
@@ -9956,7 +9953,6 @@ msgstr "Nom du contrôleur de domaine"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "Certificat SSL"
 
@@ -10375,7 +10371,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Initialiser prudemment"
 
@@ -11577,7 +11572,6 @@ msgid "Unmount Failed (%(retcode)s) -> %(output)s"
 msgstr "Échec du démontage (%(retcode)s) -> %(output)s"
 
 #: jails/forms.py:218
-#, fuzzy
 msgid "Jail name cannot have '.'"
 msgstr "Les noms d'utilisateurs ne peuvent pas contenir d'espaces"
 
@@ -11658,7 +11652,6 @@ msgstr "Taille de bloc"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Modules"
 
@@ -11685,7 +11678,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "Instantané"
 
@@ -11770,7 +11762,6 @@ msgid "Verifying"
 msgstr "Vérifier"
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "Le status du volume %(volume)s est %(status)s : %(message)s"
 
@@ -12261,7 +12252,6 @@ msgstr ""
 "\"iqn.\"."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Canal"
 
@@ -12366,7 +12356,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "Les modifications ont été appliquées avec succès !"
 
@@ -13076,33 +13065,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "Adresse IP du contrôleur"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Port distant"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Nom d'utilisateur"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Modifier le mot de passe"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "Version"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Configuration"
 
@@ -13734,3 +13717,153 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Nom d'utilisateur"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Nom de groupe"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "Nom d'hôte du contrôleur de domaine à utiliser."
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Cette adresse IP est déjà utilisée."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr ""
+"La communauté ne doit contenir que des caractères alphanumériques, '_' ou '-'"
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Mode d'accès"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Secret"
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Nom du compte de domaine"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "Service Pack invalide"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Préfixe invalide"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Un fichier de clé est requis."
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+#, fuzzy
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+"Désactiver arrêtera toute mise en file d'attente de nouvelles réplications. "
+"Cela n'arrêtera pas les réplication déjà en attente ou en cours."
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/views.py:53
+#, fuzzy
+msgid "The cloud sync process has started"
+msgstr "Le processus de nettoyage a commencé"
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "Voulez-vous activer ce service ?"

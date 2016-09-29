@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-04 02:05-0700\n"
-"PO-Revision-Date: 2016-09-11 16:43+0200\n"
+"PO-Revision-Date: 2016-09-28 17:01+0000\n"
 "Last-Translator: BouRock <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Pootle 2.1.6\n"
-"X-POOTLE-MTIME: 1469792686.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1475082090.0\n"
 
 #: choices.py:40
 msgid "Plain"
@@ -299,7 +299,7 @@ msgstr "okuma-yazma"
 
 #: choices.py:222
 msgid "read-only"
-msgstr "salt okunur"
+msgstr "salt-okunur"
 
 #: choices.py:226 choices.py:232 services/forms.py:634 services/forms.py:636
 #: services/forms.py:1058 templates/storage/scrub.html:24
@@ -401,7 +401,7 @@ msgstr "Salt-okunur"
 
 #: choices.py:505
 msgid "Write-only"
-msgstr "Sadece yazılır"
+msgstr "Sadece-yazılır"
 
 #: choices.py:506
 msgid "Read and Write"
@@ -537,7 +537,7 @@ msgstr "Kabuk"
 
 #: account/forms.py:269 account/forms.py:553
 msgid "Disable password logins"
-msgstr "Parolayla oturum açmayı etkisizleştir"
+msgstr "Parolayla oturum açmaları etkisizleştir"
 
 #: account/forms.py:271 account/forms.py:556
 msgid "Lock user"
@@ -1175,10 +1175,7 @@ msgstr "Bu IP adresi zaten kullanımda."
 
 #: plugins/forms.py:119
 msgid "PBI file to be installed"
-msgstr ""
-"PBI'lerin ne olduğunu bulmak için buraya tıklayın!<a "
-"href='http://www.pcbsd.org/en/package-management/' "
-"onclick='window.open(this.href);return false;'>"
+msgstr "Yüklenecek olan PBI dosyası"
 
 #~ msgid "You must turn off Plugins service before proceeding"
 #~ msgstr "Devam etmeden önce eklentiler servisini kapatmak gerekir."
@@ -5431,7 +5428,7 @@ msgstr "Kullanıcı adınız ve parolanız eşleşmedi. Lütfen tekrar deneyin."
 #: templates/registration/login.html:44
 #, python-format
 msgid "Welcome, %(username)s. Thanks for logging in."
-msgstr "Hoş Geldin, %(username)s. Oturum açtığın için teşekkürler."
+msgstr "Hoş geldin, %(username)s. Oturum açtığın için teşekkürler."
 
 #: templates/registration/login.html:46
 #, python-format
@@ -5758,7 +5755,7 @@ msgstr "Ayırmak istediğinize emin misiniz?"
 
 #: templates/storage/disk_offline.html:3
 msgid "Are you sure you want to offline?"
-msgstr "Çevrimdışı olmak istediğinize emin misiniz?"
+msgstr "Çevrimdışı yapmak istediğinize emin misiniz?"
 
 #: templates/storage/disk_remove.html:3
 msgid "Are you sure you want to remove?"
@@ -5865,7 +5862,7 @@ msgstr "Bu, ilerleme sırasında sistem ek yükünü artıracak"
 #: templates/storage/snapshot_confirm_rollback.html:7
 msgid "Are you sure you want to rollback dataset to this snapshot state?"
 msgstr ""
-"Veri kümsini bu anlık görüntü durumuna geri döndürmek istediğinize emin "
+"Veri kümesini bu anlık görüntü durumuna geri döndürmek istediğinize emin "
 "misiniz?"
 
 #: templates/storage/snapshots.html:21
@@ -8144,9 +8141,9 @@ msgid ""
 "impact your ability to access your data.<br /> Consider using compression "
 "instead."
 msgstr ""
-"Veri tekilleştirmenin etkinleştirilmesinin ciddi performans etkileri "
-"olabilir,<br /> bunun yanı sıra verilerinize erişim yeteneğinizi "
-"etkileyebilir.<br /> Bunun yerine sıkıştırma kullanmayı düşünün."
+"Veri tekilleştirmenin etkinleştirilmesinin, verilerinize erişim yeteneğinizi<"
+"br /> etkilemesinin yanısıra ciddi performans etkileri olabilir.<br /> Bunun "
+"yerine sıkıştırma kullanmayı düşünün."
 
 #: storage/forms.py:764
 msgid "Volume imported"
@@ -8925,7 +8922,6 @@ msgid "Jail root is not configured!"
 msgstr "Kafes kökü yapılandırılmadı!"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "Dosya sistem türü"
 
@@ -9009,7 +9005,6 @@ msgstr "Etki Alanı Hesabı Parolasını Onaylayın"
 
 #: services/forms.py:758
 #: services/models.py:1612
-#, fuzzy
 msgid "Kerberos keytab"
 msgstr "Kerberos sunucusu"
 
@@ -9631,9 +9626,8 @@ msgid "Certificate"
 msgstr "Sertifika"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
-msgstr "Root bağlanma parolası"
+msgstr "Yanlış parola."
 
 #: services/models.py:1623
 #: services/models.py:1835
@@ -9669,7 +9663,6 @@ msgstr "Etki Alanı Denetleyicisi Ayarları"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "SSL sertifikası"
 
@@ -10098,7 +10091,6 @@ msgid "Idmap backend for winbind."
 msgstr "Winbind için ldmap arka ucu."
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Başlatıcı"
 
@@ -11242,9 +11234,8 @@ msgid "Unmount Failed (%(retcode)s) -> %(output)s"
 msgstr "Sökme Başarısız Oldu (%(retcode)s) -> %(output)s"
 
 #: jails/forms.py:218
-#, fuzzy
 msgid "Jail name cannot have '.'"
-msgstr "Kullanıcı adlarında boşluk olamaz"
+msgstr "Kafes adı '.' karakterine sahip olamaz"
 
 #: jails/forms.py:1070
 msgid "The path could not be umounted %(source)s: %(error)s"
@@ -11325,7 +11316,6 @@ msgstr "Blok (iSCSI)"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Eklentiler"
 
@@ -11351,7 +11341,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "VMWare-Anlık Durum Görüntüsü"
 
@@ -11432,9 +11421,8 @@ msgid "Verifying"
 msgstr "Doğrulanıyor"
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
-msgstr "Birim %(volume)s durumu %(status)s: %(message)s"
+msgstr "Önyükleme birimi durumu %(status)s: %(message)s"
 
 #: system/views.py:318
 msgid "Boot Environments successfully deleted."
@@ -11905,7 +11893,6 @@ msgstr ""
 "ilave edilecektir."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Değiştir"
 
@@ -12013,9 +12000,8 @@ msgstr ""
 "gönderilir (daha güvenli)"
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
-msgstr "Yaptığınız değişiklikler başarıyla güncellendi!"
+msgstr "Fiber Kanal Bağlantı Noktaları başarılı olarak değiştirildi."
 
 #: sharing/forms.py:291
 msgid "A share with this name already exists."
@@ -12698,33 +12684,27 @@ msgid " TrueNAS Management IP Address"
 msgstr " TrueNAS Yönetim IP Adresi"
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
-msgstr "Kontrolör IP adresi"
+msgstr " vCenter Anamakine Adı/IP Adresi"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
-msgstr "Uzak Bağlantı Noktası Numarası"
+msgstr " vCenter Bağlantı Noktası"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
-msgstr "Kullanıcı adı"
+msgstr " vCenter Kullanıcı Adı"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
-msgstr "Parola Değiştir"
+msgstr " vCenter Parolası"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "Sürüm"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Yapılandırma"
 
@@ -13345,3 +13325,151 @@ msgstr ""
 "Komut sunucuyu kapatmak için kullanılır. Kapatmadan önce diğer görevleri "
 "yapmak için burada özel bir komut kullanabilirsiniz. Varsayılan: /sbin/"
 "shutdown -p now"
+
+#: choices.py:1045
+msgid "Rights"
+msgstr "Haklar"
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr "Son önyüklemeden bu yana çalışmadı"
+
+#: directoryservice/models.py:919
+msgid "User Base"
+msgstr "Kullanıcı Tabanlı"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr "AD içinde kullanıcı kalıbının DN'i."
+
+#: directoryservice/models.py:926
+msgid "Group Base"
+msgstr "Grup Tabanlı"
+
+#: directoryservice/models.py:928
+msgid "DN of the group container in AD."
+msgstr "AD içinde grup kalıbının DN'i."
+
+#: jails/forms.py:1038
+msgid "This name is already in use."
+msgstr "Bu isim zaten kullanımda."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr "İlişkilendirilmiş düzenli anlık görüntü %(task)s silinemiyor: %(error)s"
+
+#: services/forms.py:903
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr ""
+"Topluluk sadece alfasayısal karakterler _ . boşluklar veya - içermek zorunda"
+
+#: services/forms.py:903
+msgid "The community must contain only alphanumeric characters _ . or -"
+msgstr "Topluluk sadece alfasayısal karakterler _ . veya - içermek zorunda"
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr "ACL'leri Eşle"
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr "Kimliği doğrulanmış kullancıların etkili izinlerinin nasıl eşlendiği."
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+"Belirtilen kullanıcının kimlik bilgileri uzak erişim için root tarafından "
+"kullanılır."
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+"Belirtilen grubun kimlik bilgileri uzak erişim için root tarafından "
+"kullanılır."
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+"Belirtilen kullanıcının kimlik bilgileri uzak erişim için tüm kullanıcılar "
+"tarafından kullanılır."
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+"Belirtilen grubun kimlik bilgileri uzak erişim için tüm kullanıcılar "
+"tarafından kullanılır."
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+msgid "Access Key"
+msgstr "Erişim Anahtarı"
+
+#: system/forms.py:3008
+msgid "Secret Key"
+msgstr "Gizli Anahtar"
+
+#: system/models.py:987
+msgid "Account Name"
+msgstr "Hesap Adı"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr "Bulut Kimlik Bilgisi"
+
+#: tasks/forms.py:76
+msgid "Invalid provider details."
+msgstr "Geçersiz sağlayıcı ayrıntıları."
+
+#: tasks/forms.py:83
+msgid "Invalid credential."
+msgstr "Geçersiz kimlik bilgisi."
+
+#: tasks/forms.py:86
+msgid "Bucket is required."
+msgstr "Demet gerekli."
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr "Bulut Eşitleme"
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr "Kimlik Bilgisi"
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr "Etkisizleştirme, işlemde olan herhangi bir eşitlemeyi durdurmayacak."
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr "Bulut Eşitlemeleri"
+
+#: tasks/views.py:53
+msgid "The cloud sync process has started"
+msgstr "Bulut eşitleme işlemi başladı"
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+"Tüm parolalarınız sıfırlanacaktır. Yeniden başlatmadan sonra "
+"ayarladığınızdan emin olun."
+
+#: templates/tasks/cloudsync_run.html:5
+msgid "Would you like to run this cloud sync now?"
+msgstr "Bu bulut eşitlemeyi şimdi çalıştırmak ister misiniz?"

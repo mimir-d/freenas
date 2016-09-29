@@ -1273,7 +1273,6 @@ msgid "Mount Point"
 msgstr ""
 
 #: plugins/models.py:122
-#, fuzzy
 msgid "Mount Points"
 msgstr "마운트 포인트"
 
@@ -2264,12 +2263,10 @@ msgid ""
 msgstr ""
 
 #: services/models.py:821
-#, fuzzy
 msgid "Jail IP address"
 msgstr "전자우편 주소"
 
 #: services/models.py:825
-#, fuzzy
 msgid "Jail IP Netmask"
 msgstr "IPv4 서브넷 마스크"
 
@@ -2992,12 +2989,10 @@ msgid "Add Device Extent"
 msgstr ""
 
 #: services/nav.py:79
-#, fuzzy
 msgid "View Device Extents"
 msgstr "모든 정적 라우트 목록 보기"
 
 #: services/nav.py:92
-#, fuzzy
 msgid "File Extents"
 msgstr "모든 사용자 보기"
 
@@ -3007,7 +3002,6 @@ msgid "Add File Extent"
 msgstr ""
 
 #: services/nav.py:118
-#, fuzzy
 msgid "View File Extents"
 msgstr "모든 사용자 보기"
 
@@ -3506,7 +3500,6 @@ msgid "Specify custom path"
 msgstr ""
 
 #: storage/forms.py:163
-#, fuzzy
 msgid "Volume add"
 msgstr "볼륨"
 
@@ -3660,12 +3653,10 @@ msgid "Reserved space for this volume"
 msgstr "작동 된 볼륨이 없습니다."
 
 #: storage/forms.py:842
-#, fuzzy
 msgid "ZFS Volume Name"
 msgstr "ZFS 볼륨"
 
 #: storage/forms.py:845
-#, fuzzy
 msgid "Size for this ZFS Volume"
 msgstr "ZFS 볼륨 수정"
 
@@ -3885,7 +3876,7 @@ msgstr ""
 
 #: storage/models.py:281 system/models.py:409 system/models.py:618
 #: system/models.py:705
-#, fuzzy, python-format
+#, python-format
 msgid "Every %s days"
 msgstr "매일"
 
@@ -3965,7 +3956,6 @@ msgstr ""
 
 #: storage/models.py:657 storage/models.py:718
 #: templates/storage/replications.html:20 templates/storage/tasks.html:21
-#, fuzzy
 msgid "Filesystem/Volume"
 msgstr "파일시스템 타입"
 
@@ -4079,7 +4069,6 @@ msgid "View Snapshots"
 msgstr "스냅샷 보기"
 
 #: storage/nav.py:34
-#, fuzzy
 msgid "View ZFS Scrubs"
 msgstr "모든 그룹 보기"
 
@@ -4113,7 +4102,6 @@ msgstr "볼륨 보기"
 
 #: storage/nav.py:108 templates/storage/volumes.html:129
 #: templates/storage/volumes.html.py:133
-#, fuzzy
 msgid "Create ZFS Volume"
 msgstr "ZFS 볼륨 수정"
 
@@ -4143,7 +4131,6 @@ msgid "Volume successfully added."
 msgstr "%s가 추가 되었습니다. "
 
 #: storage/views.py:254
-#, fuzzy
 msgid "S.M.A.R.T. Extra Options"
 msgstr "SNMP 설정"
 
@@ -4201,7 +4188,6 @@ msgid "Rollback successful."
 msgstr ""
 
 #: storage/views.py:634
-#, fuzzy
 msgid "Snapshot successfully added."
 msgstr "%s가 삭제 되었습니다. "
 
@@ -4254,12 +4240,10 @@ msgid "Language (Require UI reload)"
 msgstr ""
 
 #: system/forms.py:214
-#, fuzzy
 msgid "You must specify a number between 1 and 65535, inclusive."
 msgstr "이 값은 0부터 65535 까지만 포함되야 합니다."
 
 #: system/forms.py:216
-#, fuzzy
 msgid "Number is required."
 msgstr "이 입력란은 필수입니다. "
 
@@ -4325,7 +4309,6 @@ msgid "Protocol"
 msgstr ""
 
 #: system/models.py:50
-#, fuzzy
 msgid "WebGUI Address"
 msgstr "IPv4 주소"
 
@@ -5295,7 +5278,6 @@ msgid "Welcome to %(sw_name)s&trade; %(sw_login_version)s"
 msgstr ""
 
 #: templates/registration/login.html:47
-#, fuzzy
 msgid "Please log in."
 msgstr "잠시 기다리세요..."
 
@@ -6133,11 +6115,9 @@ msgstr "중요 알람"
 #~ msgid "Only allow guest access"
 #~ msgstr "방문자 접속만 허용"
 
-#, fuzzy
 msgid "Invalid service pack"
 msgstr "서비스팩 적용"
 
-#, fuzzy
 msgid "View Rsync Tasks"
 msgstr "디스크 보기"
 
@@ -6225,7 +6205,6 @@ msgstr "NFS 공유 수정"
 msgid "SMB Shares"
 msgstr "UNIX 공유 추가"
 
-#, fuzzy
 msgid "NFS Share"
 msgstr "NFS 공유 수정"
 
@@ -6253,7 +6232,6 @@ msgstr "NFS 공유 수정"
 #~ msgid "Volume this group belongs to"
 #~ msgstr "이 그룹이 속해 있는 볼륨 "
 
-#, fuzzy
 msgid "successfully deleted"
 msgstr "삭제 되었습니다."
 
@@ -6272,11 +6250,9 @@ msgstr "삭제 되었습니다."
 #~ msgid "Enable DDP"
 #~ msgstr "DDP 활성화"
 
-#, fuzzy
 msgid "Cron Scheduler"
 msgstr "주기적인 스냅샷 일정"
 
-#, fuzzy
 msgid "Docs"
 msgstr "공지사항"
 
@@ -6304,7 +6280,6 @@ msgstr "공지사항"
 #~ msgid "Admin user"
 #~ msgstr "관리자 계정"
 
-#, fuzzy
 msgid "ZVol Name"
 msgstr "전체 이름"
 
@@ -6537,7 +6512,6 @@ msgid "Read-Only"
 msgstr "읽기전용"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "파일시스템 타입"
 
@@ -6561,7 +6535,6 @@ msgid "Jail successfully started."
 msgstr "Jail을 성공적으로 가져왔습니다."
 
 #: jails/views.py:399
-#, fuzzy
 msgid "Jail template successfully edited."
 msgstr "%s가 삭제 되었습니다. "
 
@@ -6801,7 +6774,6 @@ msgid "Set this if you want to allow Trusted Domains."
 msgstr ""
 
 #: services/models.py:1651
-#, fuzzy
 msgid "Kerberos Server"
 msgstr "서버 갯수"
 
@@ -9249,7 +9221,6 @@ msgid "IPv6 network range for jails and plugins"
 msgstr ""
 
 #: jails/nav.py:70
-#, fuzzy
 msgid "Add Jails"
 msgstr "%s을(를) 추가하기."
 
@@ -9405,7 +9376,6 @@ msgid "Certificate"
 msgstr ""
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "새 비밀번호"
 
@@ -9829,7 +9799,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Initiator"
 
@@ -11090,7 +11059,6 @@ msgstr "Lock user"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "플러그인"
 
@@ -11115,7 +11083,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "스냅샷 보기"
 
@@ -11200,7 +11167,6 @@ msgid "Verifying"
 msgstr ""
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "%s 볼륨 상태가 %(status)s 입니다"
 
@@ -11685,7 +11651,6 @@ msgid ""
 msgstr "'iqn.'없이 시작될때 베이스 이름이 자동적으로 추가될 것입니다."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "변경"
 
@@ -11786,7 +11751,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "변경 사항이 반영되었습니다. "
 
@@ -12487,33 +12451,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "제어기 IP 주소"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "원격 모니터"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "사용자명"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "비밀번호 변경"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "버전"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "전역 설정"
 
@@ -13122,3 +13080,152 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "사용자명"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Group Name"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "도메인 이름"
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "이 IP는 이미 사용중입니다."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "Community는 반드시 알파벳 문자, _ 또는 - 만을 포함해야 합니다."
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+msgid "Access Key"
+msgstr ""
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "비밀번호"
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "도메인 이름"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "서비스팩 적용"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "도메인 이름"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "이곳은 필수 입력란입니다."
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/views.py:53
+msgid "The cloud sync process has started"
+msgstr ""
+
+#: templates/services/core.html:113
+#, fuzzy
+msgid "CIFS Settings"
+msgstr "UPS 설정들"
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "이 서비스를 활성화 하시겠습니까?"

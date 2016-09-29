@@ -1192,7 +1192,6 @@ msgid "The plugins jail path cannot be a subset of the plugins archive path."
 msgstr "Шлях плагінів не може бути або містити шлях до архіву."
 
 #: plugins/forms.py:205 services/forms.py:148
-#, fuzzy
 msgid "The plugins archive path cannot be a subset of the plugins jail path."
 msgstr "Шлях плагінів не може бути або містити jail шлях."
 
@@ -5372,7 +5371,6 @@ msgid "Please wait..."
 msgstr "Будь ласка, зачекайте ..."
 
 #: templates/plugins/mountpoints.html:19
-#, fuzzy
 msgid "Edit Mount Point"
 msgstr "Точка монтування"
 
@@ -8802,7 +8800,6 @@ msgid "Jail root is not configured!"
 msgstr "Не встановлено корiнь jail!"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "Тип файлової системи"
 
@@ -8890,7 +8887,6 @@ msgstr "Підтвердіть пароль адміністратора дом�
 
 #: services/forms.py:758
 #: services/models.py:1612
-#, fuzzy
 msgid "Kerberos keytab"
 msgstr "Сервер Kerberos"
 
@@ -9558,7 +9554,6 @@ msgid "Certificate"
 msgstr "Сертифікат"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Пароль адміністратора"
 
@@ -9596,7 +9591,6 @@ msgstr "Налаштування контролера домену"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "Сертифікат SSL"
 
@@ -10018,7 +10012,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Ініціатор"
 
@@ -11157,7 +11150,6 @@ msgid "Unmount Failed (%(retcode)s) -> %(output)s"
 msgstr "Сбiй демонтування (%(retcode)s) -> %(output)s"
 
 #: jails/forms.py:218
-#, fuzzy
 msgid "Jail name cannot have '.'"
 msgstr "Ім'я користувача не може містити пробіли"
 
@@ -11236,7 +11228,6 @@ msgstr "Блочне сховище (iSCSI)"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Плагін"
 
@@ -11262,7 +11253,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "Знимок"
 
@@ -11342,7 +11332,6 @@ msgid "Verifying"
 msgstr "Перевіряється"
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "Том %(volume)s status is %(status)s: %(message)s"
 
@@ -12588,22 +12577,18 @@ msgid " TrueNAS Management IP Address"
 msgstr "IP адреса управління TrueNAS"
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "Ім'я сервера або IP адреса"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Віддалений порт"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Ім’я користувача"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Змінити пароль"
 
@@ -12613,7 +12598,6 @@ msgstr "Версія"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Конфігурація"
 
@@ -13231,3 +13215,151 @@ msgstr ""
 "Команда, яка використовується для завершення роботи сервера. Ви можете "
 "використовувати призначену для користувача команду тут, щоб виконувати інші "
 "завдання перед shutdown.default: /sbin/shutdown -p now"
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Ім’я користувача"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Ім'я групи"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "Iм'я хоста контролера домену."
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Ця IP-адреса вже існує."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "Спільнота має містити тільки букви, цифри, _ і -"
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Режим доступу"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Секрет"
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Обліковий запис домена"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "Недопустимий пакет оновлення"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Неприпустимий префікс"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Потрібен keytab."
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+#, fuzzy
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr "Відключення не зупинить вже активні завдання реплікації."
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/views.py:53
+#, fuzzy
+msgid "The cloud sync process has started"
+msgstr "Процес rsync запущений"
+
+#: templates/system/config_upload.html:6
+#, fuzzy
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr "Всі паролі будуть скинуті, встановіть їх після перезавантаження."
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "Ви хочете виконати це завдання rsync зараз?"

@@ -1196,17 +1196,14 @@ msgstr ""
 #~ msgstr "Διαδρομή υποδομής επεκτάσεων"
 
 #: plugins/forms.py:218
-#, fuzzy
 msgid "Jail IPv4 Address"
 msgstr "Διεύθυνση IP υποδομής επεκτάσεων"
 
 #: plugins/forms.py:222
-#, fuzzy
 msgid "Jail IPv4 Netmask"
 msgstr "IPv4 Netmask"
 
 #: plugins/forms.py:228
-#, fuzzy
 msgid "Plugins archive Path"
 msgstr "Διαδρομή υποδομής επεκτάσεων"
 
@@ -1333,7 +1330,6 @@ msgid "There was a problem importing the jail."
 msgstr ""
 
 #: plugins/views.py:204
-#, fuzzy
 msgid "Jail successfully imported."
 msgstr "%s ενημερώθηκε(αν) με επιτυχία."
 
@@ -1367,7 +1363,6 @@ msgstr "Απέτυχε η επαναφόρτωση της υπηρεσίας NFS
 #~ msgstr "Αυτή η διεύθυνση IP υπάρχει ήδη."
 
 #: services/forms.py:164
-#, fuzzy
 msgid "The Plugins Jail service failed to reload."
 msgstr "Η επαναφόρτωση των πρόσθετων απέτυχε."
 
@@ -1808,7 +1803,6 @@ msgid "Home directories"
 msgstr "Κατάλογοι home"
 
 #: services/models.py:160
-#, fuzzy
 msgid "Homes auxiliary parameters"
 msgstr "Βοηθητικές παράμετροι"
 
@@ -1939,7 +1933,6 @@ msgid "Base Name"
 msgstr "Βασικό Όνομα"
 
 #: services/models.py:258
-#, fuzzy
 msgid ""
 "The base name (e.g. iqn.2007-09.jp.ne.peach.istgt, see RFC 3720 and 3721 for "
 "details) will append the target name that is not starting with 'iqn.'"
@@ -2376,12 +2369,10 @@ msgstr ""
 #~ msgstr "Διεύθυνση IP υποδομής επεκτάσεων"
 
 #: services/models.py:825
-#, fuzzy
 msgid "Jail IP Netmask"
 msgstr "IPv4 Netmask"
 
 #: services/models.py:829
-#, fuzzy
 msgid "Plugins archive path"
 msgstr "Διαδρομή υποδομής επεκτάσεων"
 
@@ -2859,7 +2850,6 @@ msgid "Administrator Password"
 msgstr "Administrator Password"
 
 #: services/models.py:1269
-#, fuzzy
 msgid "Domain Administrator account password."
 msgstr "Κωδικό του λογαριασμού διαχειριστή τομέα."
 
@@ -3179,18 +3169,15 @@ msgstr "Έλεγχος Υπηρεσίες"
 #~ msgstr "Προβολή των επεκτάσεων συσκευών"
 
 #: services/nav.py:92
-#, fuzzy
 msgid "File Extents"
 msgstr "Εκτάσεις Συσκευών"
 
 #: services/nav.py:111 templates/services/iscsi_extents.html:39
 #: templates/services/iscsi_extents.html:41
-#, fuzzy
 msgid "Add File Extent"
 msgstr "Προσθήκη επέκτασης συσκευής"
 
 #: services/nav.py:118
-#, fuzzy
 msgid "View File Extents"
 msgstr "Προβολή όλων των επεκτάσεων"
 
@@ -3218,7 +3205,6 @@ msgid "Settings"
 msgstr "Ρυθμίσεις"
 
 #: services/nav.py:186
-#, fuzzy
 msgid "Management"
 msgstr "Διαχείριση iSCSI"
 
@@ -3540,12 +3526,10 @@ msgstr ""
 #~ "χρησιμοποιείται κυρίως από υπολογιστές Mac."
 
 #: sharing/models.py:189
-#, fuzzy
 msgid "Enable .AppleDouble"
 msgstr "Αριθ. AppleDouble"
 
 #: sharing/models.py:190
-#, fuzzy
 msgid ""
 "This will enable automatic creation of the .AppleDouble directories. This "
 "option should be used if files are accessed by Mac computers."
@@ -3712,7 +3696,6 @@ msgid "Sharing"
 msgstr "Κοινή χρήση"
 
 #: storage/forms.py:105
-#, fuzzy
 msgid "Enter positive number (optionally suffixed by K, M, G, T), or, 0"
 msgstr "Εισάγετε θετικός αριθμός (προαιρετικά επίθεμα από M, G, T), ή, 0"
 
@@ -4211,7 +4194,6 @@ msgstr "Remote Host"
 #~ "αρχείων"
 
 #: storage/models.py:676
-#, fuzzy
 msgid "Recursively replicate and remove stale snapshot on remote side"
 msgstr "Recursively replicate and remove stale snapshot on remote side"
 
@@ -5451,22 +5433,18 @@ msgid "Please wait..."
 msgstr "Παρακαλώ περιμένετε..."
 
 #: templates/plugins/mountpoints.html:19
-#, fuzzy
 msgid "Edit Mount Point"
 msgstr "Σημείο προσάρτησης"
 
 #: templates/plugins/mountpoints.html:25
-#, fuzzy
 msgid "Delete Mount Point"
 msgstr "Σημείο προσάρτησης"
 
 #: templates/plugins/mountpoints.html:32
-#, fuzzy
 msgid "No mount points defined"
 msgstr "Δεν ορίστηκαν εργασίες Cron"
 
 #: templates/plugins/mountpoints.html:38 templates/plugins/mountpoints.html:40
-#, fuzzy
 msgid "Add Mount Point"
 msgstr "Σημείο προσάρτησης"
 
@@ -5488,7 +5466,7 @@ msgid "Welcome, %(username)s. Thanks for logging in."
 msgstr "Καλώς ορίσατε, %(username)s. Ευχαριστώ για την σύνδεση."
 
 #: templates/registration/login.html:46
-#, fuzzy, python-format
+#, python-format
 msgid "Welcome to %(sw_name)s&trade; %(sw_login_version)s"
 msgstr "Καλώς ήρθατε στο %(sw_name)s&trade, %(sw_login_version)s"
 
@@ -5607,7 +5585,6 @@ msgid "Associated Targets"
 msgstr "Συσχετισμένοι Στόχοι"
 
 #: templates/services/iscsi_assoctargets.html:31
-#, fuzzy
 msgid "No associated targets defined"
 msgstr "Δεν έχουν τεθεί στόχοι που ορίζονται"
 
@@ -5627,7 +5604,6 @@ msgstr "Δεν έχουν τεθεί στόχοι που ορίζονται"
 #~ msgstr "Εξουσιοδοτημένο Δίκτυο"
 
 #: templates/services/iscsi_authini.html:35
-#, fuzzy
 msgid "No authorized initiators defined"
 msgstr "Εξουσιοδοτημένοι εκκινητές (Initiators)"
 
@@ -5635,7 +5611,6 @@ msgstr "Εξουσιοδοτημένοι εκκινητές (Initiators)"
 #~ msgstr "Προσθήκη εξουσιοδοτημένου Εκκινητή"
 
 #: templates/services/iscsi_dextents.html:33
-#, fuzzy
 msgid "No device extents defined"
 msgstr "Δεν έχουν τεθεί στόχοι που ορίζονται"
 
@@ -5646,7 +5621,6 @@ msgstr "Δεν έχουν τεθεί στόχοι που ορίζονται"
 #~ msgstr "Extent αρχείου"
 
 #: templates/services/iscsi_extents.html:33
-#, fuzzy
 msgid "No extents defined"
 msgstr "Δεν έχουν τεθεί στόχοι που ορίζονται"
 
@@ -5664,7 +5638,6 @@ msgstr "Άκου"
 #~ msgstr "Διαγραφή Πύλης"
 
 #: templates/services/iscsi_portals.html:39
-#, fuzzy
 msgid "No portals defined"
 msgstr "Δεν έχουν τεθεί στόχοι που ορίζονται"
 
@@ -5678,7 +5651,6 @@ msgstr "Δεν έχουν τεθεί στόχοι που ορίζονται"
 #~ msgstr "Προσθήκη Στόχου"
 
 #: templates/services/plugins.html:13 templates/services/plugins.html.py:15
-#, fuzzy
 msgid "View Mount Points"
 msgstr "Σημείο προσάρτησης"
 
@@ -6127,7 +6099,6 @@ msgstr "Ενημέρωση Λειτουργικού"
 
 #: templates/system/advanced_edit.html:39
 #: templates/system/advanced_edit.html:41
-#, fuzzy
 msgid "Import Plugins Jail"
 msgstr "Διαγραφή τής υποδομής (jail) επεκτάσεων"
 
@@ -6293,7 +6264,6 @@ msgstr "Μέσο φορτίο"
 #~ msgstr "Προσθήκη Μικρορύθμισης"
 
 #: templates/system/tunable.html:42
-#, fuzzy
 msgid "Add Loader"
 msgstr "Προσθήκη πύλης"
 
@@ -6352,7 +6322,6 @@ msgstr "Κρίσιμες Ειδοποιήσεις"
 #~ msgid "SHA256 sum for the PBI file"
 #~ msgstr "Σύνολο SHA256 για το PBI αρχείο"
 
-#, fuzzy
 msgid "Plugin uname"
 msgstr "Domain name"
 
@@ -6556,7 +6525,6 @@ msgstr "UNIX Share"
 msgid "SMB Shares"
 msgstr "UNIX Shares"
 
-#, fuzzy
 msgid "NFS Share"
 msgstr "Επεξεργασία NFS Share"
 
@@ -6575,11 +6543,9 @@ msgstr "Επεξεργασία NFS Share"
 #~ msgid "NTP server 3"
 #~ msgstr "NTP server 3"
 
-#, fuzzy
 msgid "Loader"
 msgstr "Μέσο φορτίο"
 
-#, fuzzy
 msgid "Loaders"
 msgstr "Μέσο φορτίο"
 
@@ -6604,7 +6570,6 @@ msgstr "Επεξεργασία δίσκου"
 #~ msgid "Export Volume"
 #~ msgstr "Εξαγωγή τόμου"
 
-#, fuzzy
 msgid "Add loader"
 msgstr "Προσθήκη πύλης"
 
@@ -7058,7 +7023,6 @@ msgid "Read-Only"
 msgstr "Μόνο για ανάγνωση"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "Τύπος συστήματος αρχείων"
 
@@ -7082,7 +7046,6 @@ msgid "Jail successfully started."
 msgstr "%s ενημερώθηκε(αν) με επιτυχία."
 
 #: jails/views.py:399
-#, fuzzy
 msgid "Jail template successfully edited."
 msgstr "Το dataset επεξεργάσθηκε επιτυχώς."
 
@@ -7332,7 +7295,6 @@ msgid "Set this if you want to allow Trusted Domains."
 msgstr ""
 
 #: services/models.py:1651
-#, fuzzy
 msgid "Kerberos Server"
 msgstr "Kerberos Αρχείο Keytab"
 
@@ -9071,7 +9033,6 @@ msgid "OS"
 msgstr ""
 
 #: jails/nav.py:70
-#, fuzzy
 msgid "Add Jails"
 msgstr "Προσθήκη %s"
 
@@ -9192,7 +9153,6 @@ msgstr "Ονομασία πρόσθετου"
 
 #: services/forms.py:758
 #: services/models.py:1612
-#, fuzzy
 msgid "Kerberos keytab"
 msgstr "Kerberos Αρχείο Keytab"
 
@@ -9981,7 +9941,6 @@ msgid "Certificate"
 msgstr "Πιστοποιητικό"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Εσφαλμένος κωδικός πρόσβασης."
 
@@ -10024,7 +9983,6 @@ msgstr "Domain Name ελεγκτή"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "Πιστοποιητικό SSL"
 
@@ -10413,7 +10371,6 @@ msgid "Idmap backend for winbind."
 msgstr ""
 
 #: freeadmin/navtree.py:256
-#, fuzzy
 msgid "Initial Wizard"
 msgstr "Eνεργοποιητής"
 
@@ -11708,7 +11665,6 @@ msgstr "Μέγεθος λογικού block"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Πρόσθετα"
 
@@ -11735,7 +11691,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "Στιγμιότυπο"
 
@@ -11821,7 +11776,6 @@ msgid "Verifying"
 msgstr "Επαλήθευση"
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "Ο Τόμος %(volume)s βρίσκεται στην κατάσταση %(status)s: %(message)s"
 
@@ -12313,7 +12267,6 @@ msgid ""
 msgstr "Το βασικό όνομα θα προσαρτηθεί αυτόματα όταν ξεκινάει χωρίς 'iqn.'."
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Κανάλι"
 
@@ -12415,7 +12368,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "Οι αλλαγές σας έχουν ενημερωθεί επιτυχώς!"
 
@@ -13128,33 +13080,27 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "Διεύθυνση IP ελεγκτή"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Απομακρυσμένη θύρα"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Όνομα Χρήστη"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Αλλαγή κωδικού πρόσβασης"
 
 #: vcp/models.py:74
-#, fuzzy
 msgid "version"
 msgstr "Έκδοση"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Καθολική ρύθμιση"
 
@@ -13774,3 +13720,151 @@ msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
 msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Όνομα Χρήστη"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Όνομα ομάδας"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "Domain Name ελεγκτή"
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Αυτή η διεύθυνση IP χρησιμοποιείται ήδη."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr ""
+"Η επαφή πρέπει να περιέχει μόνο αλφαβητικούς και αριθμητικούς χαρακτήρες,_,- "
+"ή μια έγκυρη διεύθυνση e-mail"
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Λειτουργία πρόσβασης"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Μυστικό"
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Domain name"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "Άκυρo service pack"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Άκυρο πρόθεμα"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Ένα αρχείο απαιτείται"
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/views.py:53
+#, fuzzy
+msgid "The cloud sync process has started"
+msgstr "Η εργασία διάγνωσης και αυτοδιόρθωσης scrub ξεκίνησε"
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "Θα θέλατε να ενεργοποιήσετε αυτή την υπηρεσία;"

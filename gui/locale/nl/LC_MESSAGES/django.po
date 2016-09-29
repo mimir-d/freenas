@@ -12853,22 +12853,18 @@ msgid " TrueNAS Management IP Address"
 msgstr " IP-adres voor TrueNAS-beheer"
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "Hostnaam of IP-adres"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Externe poort"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Gebruikersnaam"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Wachtwoord Wijzigen"
 
@@ -12878,7 +12874,6 @@ msgstr "versie"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Configuratie"
 
@@ -13114,7 +13109,6 @@ msgid "Support >16 groups"
 msgstr ">16 groepen ondersteunen"
 
 #: services/models.py:424
-#, fuzzy
 msgid ""
 "This option ignores the group membership sent on the wire by the NFS client "
 "and looks up the group membership on the server."
@@ -13518,3 +13512,178 @@ msgstr ""
 "De gebruikte opdracht voor het afsluiten van de server. U kunt hier een "
 "eigen opdracht gebruiken om voor shutdown.default: /sbin/shutdown -p now "
 "andere taken uit te voeren"
+
+#: choices.py:780
+#, fuzzy
+msgid "auth+!data"
+msgstr "auth+gegevens"
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Gebruikersnaam"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Groepsnaam"
+
+#: directoryservice/models.py:928
+#, fuzzy
+msgid "DN of the group container in AD."
+msgstr "FQDN van de te gebruiken domeincontroller."
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Dit IP-adres is al in gebruik."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr "De community mag alleen alfanumerieke tekens, _ of - bevatten"
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr ""
+
+#: services/models.py:2022
+#, fuzzy
+msgid ""
+"Report as informational in the system log if the temperature is greater or "
+"equal than N degrees Celsius. 0 to disable"
+msgstr ""
+"Rapporteren als kritiek in het systeemlogboek en een e-mail verzenden als de "
+"temperatuur hoger dan of gelijk is aan N graden Celsius. 0 om uit te "
+"schakelen"
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: storage/forms.py:2330
+#, fuzzy
+msgid "Remove passphrase"
+msgstr "Nieuwe wachtwoordzin"
+
+#: storage/views.py:1341
+#, fuzzy
+msgid "Disks successfully edited"
+msgstr "Schijf met succes gewist"
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Toegangsmodus"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Geheim"
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Domeinaccountnaam"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+#, fuzzy
+msgid "Invalid provider details."
+msgstr "Ongeldige service pack"
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Ongeldige voorvoegsel"
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Er is een keytab vereist."
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+#, fuzzy
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr "Uitschakelen zal replicaties die worden uitgevoerd niet stoppen."
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/views.py:53
+#, fuzzy
+msgid "The cloud sync process has started"
+msgstr "Het rsync-proces is gestart"
+
+#: templates/system/config_upload.html:6
+#, fuzzy
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+"Al uw wachtwoorden zullen worden geherinitialiseerd, stel deze in na het "
+"herstarten."
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "Wilt u deze rsync-taak nu uitvoeren?"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-04 02:07-0700\n"
-"PO-Revision-Date: 2016-08-01 13:07+0000\n"
+"PO-Revision-Date: 2016-09-26 17:00+0000\n"
 "Last-Translator: Pavel <pavel.borecki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1470056833.0\n"
+"X-POOTLE-MTIME: 1474909220.0\n"
 
 #: choices.py:40
 msgid "Plain"
@@ -3613,7 +3613,6 @@ msgid "All Directories"
 msgstr "Všechny složky"
 
 #: sharing/models.py:274
-#, fuzzy
 msgid ""
 "Allow mounting of any subdirectory under this mount point if selected. "
 "Otherwise, only the top level directory can be mounted."
@@ -7288,7 +7287,6 @@ msgid "Jail root is not configured!"
 msgstr "Není nastavená kořenová složka vyhrazeného prostředí!"
 
 #: jails/models.py:537
-#, fuzzy
 msgid "Filesystem"
 msgstr "Typ souborového systému"
 
@@ -7563,7 +7561,6 @@ msgid "Hostname of the kerberos server to use."
 msgstr ""
 
 #: services/models.py:1657
-#, fuzzy
 msgid "Kerberos Password Server"
 msgstr "Kerberos server"
 
@@ -8383,7 +8380,6 @@ msgstr "Stahování z %(url)s se nezdařilo: %(error)s"
 
 #: services/forms.py:758
 #: services/models.py:1612
-#, fuzzy
 msgid "Kerberos keytab"
 msgstr "Kerberos server"
 
@@ -9481,7 +9477,6 @@ msgid "Certificate"
 msgstr "Certifikát"
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "nové heslo"
 
@@ -9519,7 +9514,6 @@ msgstr "Nastavení řadiče domény"
 
 #: templates/system/settings_edit.html:30
 #: templates/system/settings_edit.html:32
-#, fuzzy
 msgid "Set SSL Certificate"
 msgstr "Certifikát SSL"
 
@@ -11270,7 +11264,6 @@ msgid "Verifying"
 msgstr "Ověřování…"
 
 #: system/alertmods/boot_volume_status.py:19
-#, fuzzy
 msgid "The boot volume status is %(status)s: %(message)s"
 msgstr "Stav svazku %(volume) je %(status): %(message)s"
 
@@ -12562,22 +12555,18 @@ msgid " TrueNAS Management IP Address"
 msgstr " IP adresa správního rozhraní TrueNAS"
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "Název stroje nebo jeho IP adresa"
 
 #: vcp/models.py:55
-#, fuzzy
 msgid " vCenter Port"
 msgstr "Port na protistraně"
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Uživatelské jméno"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Změnit heslo"
 
@@ -12587,7 +12576,6 @@ msgstr "verze"
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Nastavení"
 
@@ -13230,3 +13218,173 @@ msgstr ""
 "Příkaz sloužící k vypnutí serveru. V jeho rámci je možné začlenit své "
 "vlastní příkazy, které provést před vypnutím. Pokud není zadáno, bude "
 "použito výchozí: /sbin/shutdown -p now"
+
+#: choices.py:1045
+msgid "Rights"
+msgstr "Práva"
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+msgid "User Base"
+msgstr "Základ uživatelů"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+"Rozlišený název (DN) sekce Active Directory, ve které se nacházejí "
+"uživatelské účty."
+
+#: directoryservice/models.py:926
+msgid "Group Base"
+msgstr "Základ skupin"
+
+#: directoryservice/models.py:928
+msgid "DN of the group container in AD."
+msgstr ""
+"Rozlišený název (DN) sekce Active Directory, ve které se nacházejí účty "
+"skupin."
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr ""
+"Nevšímat si jakýchkoli mapovacích požadavků pro doménu BUILTIN (vestavěná)"
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+"Nedaří se smazat související pravidelné pořizování zachyceného stavu "
+"%(task)s:%(error)s"
+
+#: services/forms.py:903
+msgid "The community must contain only alphanumeric characters _ . or -"
+msgstr ""
+"„komunita“ (= heslo v SNMP terminologii) může obsahovat pouze písmena a "
+"číslice, dále znaky „_“ (podtržítko) a „-“ (spojovník)"
+
+#: services/forms.py:903
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr ""
+"„komunita“ (= heslo v SNMP terminologii) může obsahovat pouze písmena a "
+"číslice, dále znaky „_“ (podtržítko) a „-“ (spojovník)"
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr "Mapovat ACL seznamy"
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr "Jak mapovat skutečná oprávnění ověřených uživatelů."
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+"Přihlašovací údaje zadaného uživatele jsou použity pro vzdálený přístup "
+"správce systému (root)."
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+"Přihlašovací údaje zadané skupiny jsou použity pro vzdálený přístup správce "
+"systému (root)."
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+"Přihlašovací údaje zadaného uživatele jsou použity pro vzdálený přístup "
+"všemi uživateli."
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+"Přihlašovací údaje zadané skupiny jsou použity pro vzdálený přístup všemi "
+"uživateli."
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+"Sem zkopírujte obsah certifikátu.<br>A to v následujícím pořadí: <br>Hlavní "
+"certifikát.<br>Certifikát zprostředkujících cert. autorit (nemusí být).<br>"
+"Certifikát kořenové cert. autority (nemusí být)"
+
+#: system/forms.py:3004
+#, fuzzy
+msgid "Access Key"
+msgstr "Režim přístupu"
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Heslo"
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Název doménového účtu"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+msgid "Invalid provider details."
+msgstr ""
+
+#: tasks/forms.py:83
+#, fuzzy
+msgid "Invalid credential."
+msgstr "Neplatný doménový název."
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Je vyžadováno uložené pověření pro Kerberos (keytab)."
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+#, fuzzy
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr "Vypnutí nepovede k zastavení žádné z už probíhajících replikací."
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/views.py:53
+#, fuzzy
+msgid "The cloud sync process has started"
+msgstr "Proces rsync byl spuštěn"
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+"Veškerá hesla budou vrácena na výchozí hodnoty, proto je nezapomeňte po "
+"restartu znovu nastavit."
+
+#: templates/tasks/cloudsync_run.html:5
+#, fuzzy
+msgid "Would you like to run this cloud sync now?"
+msgstr "Chcete spustit tuto rsync úlohu nyní?"

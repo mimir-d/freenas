@@ -532,7 +532,6 @@ msgid "Shell"
 msgstr "Shell"
 
 #: account/forms.py:269 account/forms.py:553
-#, fuzzy
 msgid "Disable password logins"
 msgstr "Vô hiệu hóa đăng nhập"
 
@@ -908,7 +907,6 @@ msgid "Parent Interface"
 msgstr "Giao diện cấp trên"
 
 #: network/forms.py:245
-#, fuzzy
 msgid "The name must be vlanXX where XX is an integer"
 msgstr "Định dạng tên phải là vlanXX với XX là các chữ số tự nhiên"
 
@@ -1175,7 +1173,7 @@ msgid "You must turn off Plugins service before proceeding"
 msgstr ""
 
 #: plugins/forms.py:183
-#, fuzzy, python-format
+#, python-format
 msgid "The path %s already exists"
 msgstr "Tên đăng nhập này đã tồn tại."
 
@@ -1196,12 +1194,10 @@ msgid "Plugins jail path"
 msgstr ""
 
 #: plugins/forms.py:218
-#, fuzzy
 msgid "Jail IPv4 Address"
 msgstr "địa chỉ IPv4"
 
 #: plugins/forms.py:222
-#, fuzzy
 msgid "Jail IPv4 Netmask"
 msgstr "địa chỉ IPv4"
 
@@ -1222,7 +1218,7 @@ msgid "The full path cannot exceed 88 characters"
 msgstr ""
 
 #: plugins/forms.py:336
-#, fuzzy, python-format
+#, python-format
 msgid "The path could not be mounted %s"
 msgstr "Gửi test mail thất bại:"
 
@@ -1318,7 +1314,6 @@ msgid "Plugin successfully updated."
 msgstr "%s đã cập nhật thành công."
 
 #: plugins/views.py:80
-#, fuzzy
 msgid "Plugin successfully removed."
 msgstr "Đã xóa thành công %s."
 
@@ -1341,7 +1336,6 @@ msgid "There was a problem importing the jail."
 msgstr ""
 
 #: plugins/views.py:204
-#, fuzzy
 msgid "Jail successfully imported."
 msgstr "%s đã cập nhật thành công."
 
@@ -1371,12 +1365,10 @@ msgid "The NFS service failed to reload."
 msgstr ""
 
 #: services/forms.py:157
-#, fuzzy
 msgid "This IP already exists."
 msgstr "Tên đăng nhập này đã tồn tại."
 
 #: services/forms.py:164
-#, fuzzy
 msgid "The Plugins Jail service failed to reload."
 msgstr "Khởi động lại dịch vụ đã không thành công."
 
@@ -2311,12 +2303,10 @@ msgid ""
 msgstr ""
 
 #: services/models.py:821
-#, fuzzy
 msgid "Jail IP address"
 msgstr "địa chỉ IPv4"
 
 #: services/models.py:825
-#, fuzzy
 msgid "Jail IP Netmask"
 msgstr "địa chỉ IPv4"
 
@@ -2992,7 +2982,6 @@ msgid ""
 msgstr ""
 
 #: services/models.py:1475
-#, fuzzy
 msgid "Informal"
 msgstr "Thường"
 
@@ -3071,7 +3060,6 @@ msgid "Settings"
 msgstr ""
 
 #: services/nav.py:186
-#, fuzzy
 msgid "Management"
 msgstr "Quản trị iSCSI"
 
@@ -3911,7 +3899,7 @@ msgstr ""
 
 #: storage/models.py:281 system/models.py:409 system/models.py:618
 #: system/models.py:705
-#, fuzzy, python-format
+#, python-format
 msgid "Every %s days"
 msgstr "mỗi ngày"
 
@@ -4098,12 +4086,10 @@ msgid "Storage"
 msgstr ""
 
 #: storage/nav.py:24
-#, fuzzy
 msgid "View Snapshots"
 msgstr "Xem tất cả %s"
 
 #: storage/nav.py:34
-#, fuzzy
 msgid "View ZFS Scrubs"
 msgstr "Xem tất cả các nhóm"
 
@@ -4271,7 +4257,6 @@ msgid "You must specify a number between 1 and 65535, inclusive."
 msgstr ""
 
 #: system/forms.py:216
-#, fuzzy
 msgid "Number is required."
 msgstr "Mục này là bắt buộc"
 
@@ -5292,7 +5277,6 @@ msgid "Delete Mount Point"
 msgstr ""
 
 #: templates/plugins/mountpoints.html:32
-#, fuzzy
 msgid "No mount points defined"
 msgstr "Không có VLAN"
 
@@ -5367,7 +5351,6 @@ msgid "NFS Settings"
 msgstr "Thiết lập NFS"
 
 #: templates/services/core.html:103 templates/services/core.html.py:105
-#, fuzzy
 msgid "Plugins Settings"
 msgstr "Thiết lập AFP"
 
@@ -5421,7 +5404,6 @@ msgid "Portals"
 msgstr ""
 
 #: templates/services/iscsi.html:14
-#, fuzzy
 msgid "Authorized Initiators"
 msgstr "Xác thực"
 
@@ -5441,7 +5423,6 @@ msgid "Associated Targets"
 msgstr ""
 
 #: templates/services/iscsi_assoctargets.html:31
-#, fuzzy
 msgid "No associated targets defined"
 msgstr "Không có VLAN"
 
@@ -5466,7 +5447,6 @@ msgid "Authorized Network"
 msgstr ""
 
 #: templates/services/iscsi_authini.html:35
-#, fuzzy
 msgid "No authorized initiators defined"
 msgstr "Xác thực"
 
@@ -5476,7 +5456,6 @@ msgid "Add Authorized Initiator"
 msgstr ""
 
 #: templates/services/iscsi_dextents.html:33
-#, fuzzy
 msgid "No device extents defined"
 msgstr "Định tuyến mặc định chưa được định nghĩa"
 
@@ -5490,7 +5469,6 @@ msgid "File Extent"
 msgstr ""
 
 #: templates/services/iscsi_extents.html:33
-#, fuzzy
 msgid "No extents defined"
 msgstr "Không có VLAN"
 
@@ -5511,7 +5489,6 @@ msgid "Delete Portal"
 msgstr ""
 
 #: templates/services/iscsi_portals.html:39
-#, fuzzy
 msgid "No portals defined"
 msgstr "Không có VLAN"
 
@@ -5631,7 +5608,6 @@ msgid "Delete UNIX (NFS) Share"
 msgstr ""
 
 #: templates/sharing/unix.html:49 templates/sharing/unix.html.py:51
-#, fuzzy
 msgid "Add UNIX (NFS) Share"
 msgstr "Thiết lập SMB"
 
@@ -5777,7 +5753,6 @@ msgid "No ZFS replication available"
 msgstr ""
 
 #: templates/storage/scrub.html:42
-#, fuzzy
 msgid "No scrub tasks defined."
 msgstr "Không có VLAN"
 
@@ -6032,7 +6007,6 @@ msgid "Are you sure you want to restore to factory config?"
 msgstr ""
 
 #: templates/system/cronjob.html:41
-#, fuzzy
 msgid "No cron jobs defined."
 msgstr "Không có VLAN"
 
@@ -6063,7 +6037,6 @@ msgid "iBurst"
 msgstr ""
 
 #: templates/system/ntpserver.html:38
-#, fuzzy
 msgid "No NTP servers defined."
 msgstr "Không có VLAN"
 
@@ -6091,7 +6064,6 @@ msgid "History"
 msgstr ""
 
 #: templates/system/rsync.html:5
-#, fuzzy
 msgid "Local Path"
 msgstr "Người dùng tại chỗ"
 
@@ -6155,17 +6127,14 @@ msgid "Add S.M.A.R.T. test"
 msgstr ""
 
 #: templates/system/sysctl.html:34
-#, fuzzy
 msgid "No sysctl defined."
 msgstr "Không có VLAN"
 
 #: templates/system/sysctl.html:40
-#, fuzzy
 msgid "Add sysctl"
 msgstr "Thêm  %s"
 
 #: templates/system/sysctl.html:42
-#, fuzzy
 msgid "Add Sysctl"
 msgstr "Thêm  %s"
 
@@ -6198,7 +6167,6 @@ msgid "Connected through"
 msgstr ""
 
 #: templates/system/tunable.html:34
-#, fuzzy
 msgid "No tunable setting defined."
 msgstr "Định tuyến mặc định chưa được định nghĩa"
 
@@ -6259,11 +6227,9 @@ msgstr ""
 #~ msgid "Selected"
 #~ msgstr "Đã chọn"
 
-#, fuzzy
 msgid "View Sysctls"
 msgstr "Xem tất cả %s"
 
-#, fuzzy
 msgid "View Tunables"
 msgstr "Xem tất cả tài khoản"
 
@@ -6534,7 +6500,6 @@ msgid "Jail successfully started."
 msgstr "%s đã cập nhật thành công."
 
 #: jails/views.py:399
-#, fuzzy
 msgid "Jail template successfully edited."
 msgstr "%s đã cập nhật thành công."
 
@@ -7548,7 +7513,6 @@ msgid "No available IP addresses"
 msgstr "địa chỉ IPv4"
 
 #: services/forms.py:1081
-#, fuzzy
 msgid "LUN ID already exists."
 msgstr "Tên đăng nhập này đã tồn tại."
 
@@ -9126,7 +9090,6 @@ msgid "IPv6 network range for jails and plugins"
 msgstr ""
 
 #: jails/nav.py:70
-#, fuzzy
 msgid "Add Jails"
 msgstr "Thêm  %s"
 
@@ -9278,7 +9241,6 @@ msgid "Certificate"
 msgstr ""
 
 #: services/forms.py:864
-#, fuzzy
 msgid "Incorrect password."
 msgstr "Mật khẩu mới"
 
@@ -10921,7 +10883,6 @@ msgstr "Khóa người dùng"
 
 #: storage/admin.py:629
 #: storage/forms.py:1741
-#, fuzzy
 msgid "VMWare Sync"
 msgstr "Sẵn sàng"
 
@@ -10945,7 +10906,6 @@ msgstr ""
 
 #: storage/models.py:1098
 #: templates/storage/index.html:38
-#, fuzzy
 msgid "VMWare-Snapshot"
 msgstr "Xem tất cả %s"
 
@@ -11484,7 +11444,6 @@ msgid ""
 msgstr ""
 
 #: services/models.py:835
-#, fuzzy
 msgid "Fiber Channel"
 msgstr "Email"
 
@@ -11581,7 +11540,6 @@ msgid ""
 msgstr ""
 
 #: services/views.py:334
-#, fuzzy
 msgid "Fiber Channel Ports have been successfully changed."
 msgstr "Đã xóa thành công %s."
 
@@ -12254,7 +12212,6 @@ msgid " TrueNAS Management IP Address"
 msgstr ""
 
 #: vcp/models.py:49
-#, fuzzy
 msgid " vCenter Hostname/IP Address"
 msgstr "địa chỉ IPv4"
 
@@ -12263,12 +12220,10 @@ msgid " vCenter Port"
 msgstr ""
 
 #: vcp/models.py:60
-#, fuzzy
 msgid " vCenter User name"
 msgstr "Tên đăng nhập"
 
 #: vcp/models.py:67
-#, fuzzy
 msgid " vCenter Password"
 msgstr "Thay đổi mật khẩu"
 
@@ -12278,7 +12233,6 @@ msgstr ""
 
 #: vcp/models.py:78
 #: vcp/models.py:79
-#, fuzzy
 msgid "VCenter Configuration"
 msgstr "Thiết đặt chung"
 
@@ -12874,4 +12828,150 @@ msgstr "Tắt"
 msgid ""
 "The command used to shutdown the server. You can use a custom command here "
 "to perform other tasks before shutdown.default: /sbin/shutdown -p now"
+msgstr ""
+
+#: choices.py:1045
+msgid "Rights"
+msgstr ""
+
+#: choices.py:1051
+msgid "Amazon S3"
+msgstr ""
+
+#: api/resources.py:1588
+msgid "Not ran since last boot"
+msgstr ""
+
+#: directoryservice/models.py:919
+#, fuzzy
+msgid "User Base"
+msgstr "Tên đăng nhập"
+
+#: directoryservice/models.py:921
+msgid "DN of the user container in AD."
+msgstr ""
+
+#: directoryservice/models.py:926
+#, fuzzy
+msgid "Group Base"
+msgstr "Tên nhóm"
+
+#: directoryservice/models.py:928
+msgid "DN of the group container in AD."
+msgstr ""
+
+#: jails/forms.py:1038
+#, fuzzy
+msgid "This name is already in use."
+msgstr "Tên đăng nhập này đã tồn tại."
+
+#: jails/models.py:350
+msgid "Unable to delete associated periodic snapshot %(task)s:%(error)s"
+msgstr ""
+
+#: services/forms.py:903
+#, fuzzy
+msgid "The community must contain only alphanumeric characters _ . spaces or -"
+msgstr ""
+"Giá trị này chỉ chấp nhận các chữ, số và các ký tự .(dấu chấm),-(gạch "
+"ngang),_(gạch dưới)"
+
+#: services/models.py:360
+msgid "Map ACLs"
+msgstr ""
+
+#: services/models.py:362
+msgid "How to map the effective permissions of authenticated users."
+msgstr ""
+
+#: sharing/models.py:334
+msgid ""
+"The credentials of the specified user is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:345
+msgid ""
+"The credentials of the specified group is used for remote access by root."
+msgstr ""
+
+#: sharing/models.py:356
+msgid ""
+"The credentials of the specified user is used for remote access by all users."
+msgstr ""
+
+#: sharing/models.py:367
+msgid ""
+"The credentials of the specified group is used for remote access by all "
+"users."
+msgstr ""
+
+#: storage/forms.py:2417
+msgid "CIFS"
+msgstr ""
+
+#: system/forms.py:2613
+msgid ""
+"Cut and paste the contents of your certificate here.<br>Order in which you "
+"should paste this: <br>The Primary Certificate.<br>The Intermediate CA's "
+"Certificate(s) (optional).<br>The Root CA Certificate (optional)"
+msgstr ""
+
+#: system/forms.py:3004
+msgid "Access Key"
+msgstr ""
+
+#: system/forms.py:3008
+#, fuzzy
+msgid "Secret Key"
+msgstr "Bí mật"
+
+#: system/models.py:987
+#, fuzzy
+msgid "Account Name"
+msgstr "Tài khoản Quản trị"
+
+#: system/models.py:1003
+msgid "Cloud Credential"
+msgstr ""
+
+#: tasks/forms.py:76
+msgid "Invalid provider details."
+msgstr ""
+
+#: tasks/forms.py:83
+msgid "Invalid credential."
+msgstr ""
+
+#: tasks/forms.py:86
+#, fuzzy
+msgid "Bucket is required."
+msgstr "Mục này là bắt buộc"
+
+#: tasks/hook.py:40
+#: tasks/models.py:103
+msgid "Cloud Sync"
+msgstr ""
+
+#: tasks/models.py:54
+msgid "Credential"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "Disabling will not stop any syncs which are in progress."
+msgstr ""
+
+#: tasks/models.py:104
+msgid "Cloud Syncs"
+msgstr ""
+
+#: tasks/views.py:53
+msgid "The cloud sync process has started"
+msgstr ""
+
+#: templates/system/config_upload.html:6
+msgid "All your passwords will be reset. Make sure to set them after reboot."
+msgstr ""
+
+#: templates/tasks/cloudsync_run.html:5
+msgid "Would you like to run this cloud sync now?"
 msgstr ""
